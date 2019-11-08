@@ -25,10 +25,10 @@ An application that generates a random password as a function of user-selected c
 
 
 * Link to deployed GitHub Pages URL: 
+https://dopaminedriven.github.io/RandomPasswordGenerator/
 
 
-
-* This application is useful insofar as aiding the user in the protection of sensitive content/data with a strong password. It eliminates the security threat of having weak, breachable, passwords. For example, the apparent Equifax data breach was a direct byproduct of those protecting the data using the following username and password:
+* This application is useful insofar as aiding the user in the protection of sensitive content/data with a strong password. It eliminates the security threat of having weak, breachable, passwords. For example, the apparent Equifax data breach was a direct byproduct of those overseeing the data using the following username and password:
     * username: admin
     * password: admin
 

@@ -145,6 +145,7 @@ pwText.select();
 document.execCommand("copy");
 
 alert(`Generated password ${pwText.value} copied to clipboard.`);
+document.getElementById("pastPasswords").innerHTML+=pwText.value+"<br />"
 }
 
 //add event listener to generate and copy buttons

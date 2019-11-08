@@ -20,7 +20,7 @@ body {
 }
 
 .card {
-    background-color: hsl(0, 0%, 100%);
+    background-color: lightgray;
     border-radius: 10px;
     border-width: 2px;
     color: black;
@@ -28,5 +28,47 @@ body {
     margin: auto;
     max-width: auto;
     padding: 20px 30px;
+}
+
+.card-footer::before {
+    content: " ";
+    display: block;
+    width: 100%;
+    background: white;
+}
+
+.card-footer::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.card-body {
+    min-height: 150px;
+}
+
+.card-header::after {
+    content: " ";
+    display: block;
+    background: white;
+    width: 100%;
+}
+
+.btn {
+    cursor: pointer;
+    text-align: center;
+    padding: 20px 40px;
+    margin: 20px;
+    line-height: 2px;
+    font-size: 20px;
+    display: inline-block;
+    box-shadow: black;
+    border-radius: 30px;
+    border: 1px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    border-color: white;
+    align-content: center;
 }
 
