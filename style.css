@@ -10,65 +10,94 @@ nav {
 
 body {
     font-family: sans-serif;
-    background-color: #f9fbfd;
+    background-color: white;
+    align-content: center;
+
 }
 
 .header {
     text-align: center;
     padding: 20px;
-    padding-top: 0px;
 }
 
+header {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    color: lightgray;
+  }
+  
 .card {
-    background-color: lightgray;
-    border-radius: 10px;
-    border-width: 2px;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: black;
     color: black;
     font-size: 18px;
-    margin: auto;
-    max-width: auto;
-    padding: 20px 30px;
-}
-
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px 40px;
+  }
+  
+  .card-header::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    background: lightslategray;
+    height: 2px;
+  }
+  
+.card-body {
+    min-height: 100px;
+  }
+  
 .card-footer::before {
     content: " ";
     display: block;
     width: 100%;
-    background: white;
-}
-
+    background: #e7e9eb;
+    height: 2px;
+  }
+  
 .card-footer::after {
     content: " ";
     display: block;
     clear: both;
-}
-
-.card-body {
-    min-height: 150px;
-}
-
-.card-header::after {
-    content: " ";
-    display: block;
-    background: white;
-    width: 100%;
-}
-
+  }
+  
 .btn {
-    cursor: pointer;
-    text-align: center;
-    padding: 20px 40px;
-    margin: 20px;
-    line-height: 2px;
-    font-size: 20px;
-    display: inline-block;
-    box-shadow: black;
-    border-radius: 30px;
-    border: 1px;
-    border-style: solid;
-    background-color: black;
+    border: none;
+    background-color: maroon;
+    border-radius: 25px;
+    border-color: black;
     color: white;
-    border-color: white;
-    align-content: center;
-}
+    display: inline-block;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 20px 20px 20px 24px;
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+button[disabled] {
+    cursor: default;
+    background: maroon;
+  }
+  
 
+#password {
+    display: block;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 85px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  

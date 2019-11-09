@@ -29,24 +29,16 @@ function passwordOptions() {
     }
 
     //variable confirming inclusion of uppercase characters
-    let containsUpperCaseCharacters = confirm(
-        `Select OK to include uppercase characters in password`
-    );
+    let containsUpperCaseCharacters = confirm(`Select OK to include uppercase characters in password`);
     
     //variable confirming inclusion of lowercase characters
-    let containsLowerCaseCharacters = confirm(
-        `Select OK to include lowercase characters in password`
-    );
+    let containsLowerCaseCharacters = confirm(`Select OK to include lowercase characters in password`);
     
     //variable confirming inclusion of numeric characters
-    let containsNumericCharacters = confirm(
-        `Select OK to include numeric characters in password`
-    );
+    let containsNumericCharacters = confirm(`Select OK to include numeric characters in password`);
     
     //variable confirming inclusion of special characters
-    let containsSpecialCharacters = confirm(
-        `Select OK to include special characters in password`
-    );
+    let containsSpecialCharacters = confirm(`Select OK to include special characters in password`);
 
     //Program terminates if all four conditionals === false
     if (containsUpperCaseCharacters === false && containsLowerCaseCharacters === false
@@ -144,6 +136,7 @@ let pwText=document.querySelector("#PW");
 pwText.select();
 document.execCommand("copy");
 
+//logs previously copied PWs to innerHTML below card
 alert(`Generated password ${pwText.value} copied to clipboard.`);
 document.getElementById("pastPasswords").innerHTML+=pwText.value+"<br />"
 }

@@ -22,8 +22,6 @@ An application that generates a random password as a function of user-selected c
 
 * Screenshot of the completed application:
 
-
-
 * Link to deployed GitHub Pages URL: 
 https://dopaminedriven.github.io/RandomPasswordGenerator/
 
